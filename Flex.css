@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    display:flex;
+    display:inline;
+    justify-content: space-between;
+    padding:20px;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}    
+
+.table-header{
+    flex: 1;
+    padding:10px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.header{
+    display: flex;
+    background-color:green;
+    color: white;
+}
+
+.row{
+    display: flex;
+    border-top:1px solid white;
+}
+
+.cell{
+    flex:1;
+    padding:10px;
+    text-align: center;
+    border-left:1px solid white;
+}
